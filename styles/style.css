@@ -94,8 +94,17 @@ ol {
   gap: 30px;
 }
 
+/*заполняет контейнер отсекая лишнее*/
 .result__video-container {
   width: 711px;
   height: 386px;
   position: relative;
+}
+
+.result__video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
 }
