@@ -108,3 +108,9 @@ ol {
   object-position: center;
   cursor: pointer;
 }
+/*Скролл для видеокарточек в блоке*/
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
